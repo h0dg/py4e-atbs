@@ -1,2 +1,3 @@
 # py4e-atbs
-Python for Everyone and Automate the Boring Stuff - Practice problems
+Python for Everyone and Automate the Boring Stuff
+Practice problems and Assignments
