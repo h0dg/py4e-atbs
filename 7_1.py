@@ -6,4 +6,6 @@ except :
     print("Unable to open file:" , fname)
     quit()
 for i in fh :
-    print(i.rstrip().upper())
+    i = i.rstrip()
+    i = i.upper()
+    print(i)
