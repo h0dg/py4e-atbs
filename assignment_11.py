@@ -25,4 +25,8 @@ print(sum([int(x) for x in re.findall('[0-9]+', open('regex_sum_2294092.txt').re
 #   - int(x) converts the string to an integer.
 
 # LIST COMPREHENSION:
-# [EXPRESSION for ITEM in ITERABLE]
+# [EXPRESSION for ITEM in ITERABLE if CONDITION]
+# - EXPRESSION: what each new element in list should be
+# - ITEM: variable name for each iteration element
+# - ITERABLE: any Python object I can loop through (list, string, range, file, etc.)
+# - CONDITION: (optional) filter elements by a condition
